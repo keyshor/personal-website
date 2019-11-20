@@ -1,0 +1,30 @@
+baseURL = "https://seas.upenn.edu/~kishor"
+languageCode = "en-us"
+title = "Kishor Jothimurugan"
+theme = "avicenna"
+googleAnalytics = "UA-1234-6"
+timeout = 3000
+
+[params.meta]
+  mainSections = "content/main"
+
+[params]
+  subtitle= "PhD Student"
+  interests="Applications of Formal Methods in Machine Learning, Formal Verification"
+  cv_name= "cv.pdf"
+
+[[params.affilation]]
+  name = "University of Pennsylvania"
+  position = "PhD Student"
+  contact = "kishor at seas upenn edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/keyshor"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/kishor-jothimurugan/"

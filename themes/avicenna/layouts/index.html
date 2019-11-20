@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+
+	<body>
+		<div class="container wrapper">
+			{{ partial "head.html" . }}
+			<div>
+			{{ with .Site.GetPage "/introduction.md"}}{{ .Content }}{{ end }}
+			</div><div>
+			{{ with .Site.GetPage "/projects.md"}}{{ .Content }}{{ end }}
+			</div><div>
+			{{ with .Site.GetPage "/publications.md"}}{{ .Content }}{{ end }}
+			</div><div>
+			{{ with .Site.GetPage "/other_projects.md"}}{{ .Content }}{{ end }}
+			</div>
+		</div>
+		</div>
+		{{ partial "footer.html" . }}
+	</body>
+
+</html>
