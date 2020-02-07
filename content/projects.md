@@ -6,10 +6,7 @@ draft: false
 ### Projects
 
 * __Formal Methods for Reinforcement Learning.__
-    Classical reinforcement learning (RL) involves learning a controller policy that maximizes a reward function (in expectation) under unknown system dynamics. This line of work focusses on applying techniques from logic and formal methods to reinforcement learning. An example of this approach is our work on programmable rewards for RL. We designed a
-    logical specification language for specifying the expected behavior of the system. Specifications in this language are then
-    compiled to reward functions which can be used in RL algorithms (along with other things necessary for learning such as the neural network representation of the policy). Our current work focusses on improving the efficiency of RL methods
-    and also ways to verify learned policies.
+    Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?
 
 *  __Streaming Algorithms over Probabilistic Streams.__
-    In streaming algorithms, streams are defined to be sequences of data points. In this project, we consider probabilistic streams which are sequences of distributions over a finite set of events. Each probabilistic stream can be interpreted as a distribution over regular streams. The goal is then to compute the expected value of a given function (that assigns values to regular streams) on an input probabilistic stream. We look at automata based functions and analyze the space complexity of such computations in the streaming setting.
+    In streaming algorithms, streams are defined to be sequences of data points. In this project, we consider probabilistic streams which are sequences of distributions over a finite set of events. We analyze space complexity of streaming computation in this setting for different query classes.

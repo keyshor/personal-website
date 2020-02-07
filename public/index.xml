@@ -17,7 +17,7 @@
       <pubDate>Fri, 11 Oct 2019 13:14:31 -0400</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/other_projects/</guid>
-      <description>Other Projects  SDE Internship at Amazon Web Services. I worked as an intern in the Automated Reasoning Group at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large code bases.</description>
+      <description>Other Projects  SDE Internship at Amazon Web Services. I worked as an intern in the Automated Reasoning Group at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 11 Oct 2019 10:40:07 -0400</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/projects/</guid>
-      <description>Projects  Formal Methods for Reinforcement Learning. Classical reinforcement learning (RL) involves learning a controller policy that maximizes a reward function (in expectation) under unknown system dynamics. This line of work focusses on applying techniques from logic and formal methods to reinforcement learning. An example of this approach is our work on programmable rewards for RL. We designed a logical specification language for specifying the expected behavior of the system.</description>
+      <description>Projects  Formal Methods for Reinforcement Learning. Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?</description>
     </item>
     
     <item>
@@ -35,11 +35,10 @@
       <pubDate>Fri, 11 Oct 2019 10:40:00 -0400</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/publications/</guid>
-      <description> Publications  A composable specification language for reinforcement learning tasks, Kishor Jothimurugan, Rajeev Alur, Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
-[paper][slides][code]  Drafts and Reports  Space-efficient query evaluation over probabilistic event streams, Rajeev Alur, Yu Chen, Kishor Jothimurugan, Sanjeev Khanna. In preparation.
- Techniques for verifying robustness of neural networks, Kishor Jothimurugan. WPE II Survey Report.
-[report]
-  </description>
+      <description>Publications  A composable specification language for reinforcement learning tasks, Kishor Jothimurugan, Rajeev Alur, Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
+[paper][slides][code]  Drafts and Reports  Space-efficient query evaluation over probabilistic event streams, Rajeev Alur, Yu Chen, Kishor Jothimurugan, Sanjeev Khanna. In submission.
+ State and Action Abstractions for Hierarchical Deep Reinforcement Learning, Kishor Jothimurugan, Wenbo Zhang, Osbert Bastani, Rajeev Alur. In submission.
+ Techniques for verifying robustness of neural networks, Kishor Jothimurugan.</description>
     </item>
     
     <item>

@@ -25,7 +25,7 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/normalize.css />
-	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/main.css/><script src=https://seas.upenn.edu/~kishor/js/feather.min.js></script><script src=https://seas.upenn.edu/~kishor/js/main.js></script>
+	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/main.css /><script src=https://seas.upenn.edu/~kishor/js/feather.min.js></script><script src=https://seas.upenn.edu/~kishor/js/main.js></script>
 </head>
 
 
@@ -39,21 +39,21 @@
 				<li class="position">PhD Student, University of Pennsylvania</li>
 				<li class="email">kishor at seas upenn edu</li>
 			</ul></span>
-		
+
 
 		<nav class="nav social">
 			<ul class="flat"><a href="https://github.com/keyshor" title="GitHub"><i data-feather="github"></i></a><a href="https://linkedin.com/in/kishor-jothimurugan/" title="LinkedIn"><i data-feather="linkedin"></i></a>
 				|
 				<a href="cv.pdf" class="blog_cv">[cv]</a>
-				
-				
+
+
 			</ul>
 		</nav>
 	</div>
 
 	<nav class="nav">
 		<ul class="flat">
-			
+
 		</ul>
 	</nav>
 </div>
@@ -71,23 +71,20 @@ verifying systems with machine learning components and using machine learning to
 improve scalability of program analysis and verification techniques.</p>
 
 			</div><div>
-			
+
 
 <h3 id="projects">Projects</h3>
 
 <ul>
 <li><p><strong>Formal Methods for Reinforcement Learning.</strong>
-Classical reinforcement learning (RL) involves learning a controller policy that maximizes a reward function (in expectation) under unknown system dynamics. This line of work focusses on applying techniques from logic and formal methods to reinforcement learning. An example of this approach is our work on programmable rewards for RL. We designed a
-logical specification language for specifying the expected behavior of the system. Specifications in this language are then
-compiled to reward functions which can be used in RL algorithms (along with other things necessary for learning such as the neural network representation of the policy). Our current work focusses on improving the efficiency of RL methods
-and also ways to verify learned policies.</p></li>
+Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?</p></li>
 
 <li><p><strong>Streaming Algorithms over Probabilistic Streams.</strong>
-In streaming algorithms, streams are defined to be sequences of data points. In this project, we consider probabilistic streams which are sequences of distributions over a finite set of events. Each probabilistic stream can be interpreted as a distribution over regular streams. The goal is then to compute the expected value of a given function (that assigns values to regular streams) on an input probabilistic stream. We look at automata based functions and analyze the space complexity of such computations in the streaming setting.</p></li>
+In streaming algorithms, streams are defined to be sequences of data points. In this project, we consider probabilistic streams which are sequences of distributions over a finite set of events. We analyze space complexity of streaming computation in this setting for different query classes.</p></li>
 </ul>
 
 			</div><div>
-			
+
 
 <h3 id="publications">Publications</h3>
 
@@ -101,7 +98,10 @@ Rajeev Alur, Osbert Bastani. <em>Neural Information Processing Systems (NeurIPS)
 
 <ul>
 <li><p><strong>Space-efficient query evaluation over probabilistic event streams</strong>, Rajeev Alur, Yu Chen,
-Kishor Jothimurugan, Sanjeev Khanna. <em>In preparation</em>.</p></li>
+Kishor Jothimurugan, Sanjeev Khanna. <em>In submission</em>.</p></li>
+
+<li><p><strong>State and Action Abstractions for Hierarchical Deep Reinforcement Learning</strong>, Kishor Jothimurugan,
+Wenbo Zhang, Osbert Bastani, Rajeev Alur. <em>In submission</em>.</p></li>
 
 <li><p><strong>Techniques for verifying robustness of neural networks</strong>, Kishor Jothimurugan.
 <em>WPE II Survey Report</em>.<br />
@@ -109,7 +109,7 @@ Kishor Jothimurugan, Sanjeev Khanna. <em>In preparation</em>.</p></li>
 </ul>
 
 			</div><div>
-			
+
 
 <h3 id="other-projects">Other Projects</h3>
 
@@ -117,7 +117,7 @@ Kishor Jothimurugan, Sanjeev Khanna. <em>In preparation</em>.</p></li>
 <li><strong>SDE Internship at Amazon Web Services.</strong>
 I worked as an intern in the <a href="https://aws.amazon.com/blogs/security/tag/automated-reasoning/">Automated Reasoning Group</a>
 at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
-security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large code bases.  My project was on using machine learning to identify the sinks in
+security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on using machine learning to identify sinks in
 the codebase of AWS storage services.</li>
 </ul>
 
@@ -125,7 +125,7 @@ the codebase of AWS storage services.</li>
 
 <ul>
 <li><p><strong>PennCloud: Course Project for Software Systems (CIS 505).</strong>
-Built a cloud system with mail and storage services in a team of 4. I was responsible for the distributed backend key-value store based on Google BigTable that is sequentially consistent, fault tolerant and scalable with checkpoints and recovery mechanisms.</p></li>
+Built a cloud system with e-mail and storage services in a team of 4. I was responsible for the distributed backend key-value store based on Google BigTable that is sequentially consistent, fault tolerant and scalable.</p></li>
 
 <li><p><strong>Online learning with many experts: Course Project for Computational Learning Theory (CIS 625).</strong>
 Survey of online learning methods for dealing with too many (potentially infinite) experts.<br />
@@ -152,7 +152,7 @@ var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'UA-1234-6', 'auto');
-	
+
 	ga('send', 'pageview');
 }
 </script>

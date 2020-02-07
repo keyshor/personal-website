@@ -10,10 +10,14 @@ draft: false
    Rajeev Alur, Osbert Bastani. _Neural Information Processing Systems (NeurIPS), 2019_.  
    [[paper](papers/spectrl_full.pdf)][[slides](slides/spectrl.pdf)][[code](https://github.com/keyshor/spectrl_tool)]
 
+
 ### Drafts and Reports
 
 * __Space-efficient query evaluation over probabilistic event streams__, Rajeev Alur, Yu Chen,
-   Kishor Jothimurugan, Sanjeev Khanna. _In preparation_.
+   Kishor Jothimurugan, Sanjeev Khanna. _In submission_.
+
+* __State and Action Abstractions for Hierarchical Deep Reinforcement Learning__, Kishor Jothimurugan,
+   Wenbo Zhang, Osbert Bastani, Rajeev Alur. _In submission_.
 
 * __Techniques for verifying robustness of neural networks__, Kishor Jothimurugan.
    _WPE II Survey Report_.  
