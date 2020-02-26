@@ -16,7 +16,7 @@ draft: false
 * __Space-efficient query evaluation over probabilistic event streams__, Rajeev Alur, Yu Chen,
    Kishor Jothimurugan, Sanjeev Khanna. _In submission_.
 
-* __State and Action Abstractions for Hierarchical Deep Reinforcement Learning__, Kishor Jothimurugan,
+* __State and action abstractions for hierarchical deep reinforcement learning__, Kishor Jothimurugan,
    Wenbo Zhang, Osbert Bastani, Rajeev Alur. _In submission_.
 
 * __Techniques for verifying robustness of neural networks__, Kishor Jothimurugan.
