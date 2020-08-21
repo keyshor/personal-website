@@ -9,8 +9,22 @@ I am being advised by [Rajeev Alur](https://www.cis.upenn.edu/~alur). I received
 B.Sc. (Honors) in Mathematics and Computer Science from the
 [Chennai Mathematical Institute](https://www.cmi.ac.in).
 
-My (broad) research areas of interest include formal methods, verification, programming languages
-and machine learning. In particular, I am interested in applying formal methods to
-improve applicability and reliability of deep reinforcement learning methods,
-verifying systems with machine learning components and using machine learning to
-improve scalability of program analysis and verification techniques.
+My (broad) areas of interest include formal methods, verification, and machine learning.
+In particular, I am interested in applying formal methods to
+improve applicability and reliability of deep reinforcement learning,
+verifying systems with neural network components, and using machine learning to
+improve scalability of program analysis and verification.
+
+My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
+DRL has been shown to be successful in many applications such as robotics and game playing.
+However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
+it is not always straightforward to define rewards for the task at hand. In
+([NeurIPS'20](paper/spectrl_full.pdf)) we provide a way to
+overcome this challenge by proposing an algorithm that automatically generates rewards from
+a high level logical specification.
+Another major drawback of DRL is that it does not provide any guarantee about
+the learned policy. In safety critical applications, we would like to verify that the
+learned policy is, in fact, safe. An interesting research direction that I am looking into, here,
+is to see how one can decompose an
+RL task into simpler tasks, so that, not only is it easier to learn policies for the simpler tasks,
+but it also makes verification faster.

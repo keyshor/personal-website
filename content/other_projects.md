@@ -3,12 +3,17 @@ title: "Other_projects"
 date: 2019-10-11T13:14:31-04:00
 draft: false
 ---
-### Other Projects
+### Internships
 
-* __SDE Internship at Amazon Web Services.__
-    I worked as an intern in the [Automated Reasoning Group](https://aws.amazon.com/blogs/security/tag/automated-reasoning/)
-    at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
-    security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on using machine learning to identify sinks in
+* __Research Internship at Nokia Bell Labs (Summer 2020).__
+    I worked on applications of deep reinforcement learning and imitation learning to
+    real time decision making problems such as logistics optimization.
+    I also spent some time on applying RL to collision avoidance in drones.
+
+* __SDE Internship at Amazon Web Services (Summer 2019).__
+    I interned with the [Automated Reasoning Group](https://aws.amazon.com/blogs/security/tag/automated-reasoning/)
+    at AWS. I worked on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
+    security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on applying machine learning to identify sinks in
     the codebase of AWS storage services.
 
 #### Graduate Course Projects

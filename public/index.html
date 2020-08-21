@@ -39,21 +39,21 @@
 				<li class="position">PhD Student, University of Pennsylvania</li>
 				<li class="email">kishor at seas upenn edu</li>
 			</ul></span>
-		
+
 
 		<nav class="nav social">
 			<ul class="flat"><a href="https://github.com/keyshor" title="GitHub"><i data-feather="github"></i></a><a href="https://linkedin.com/in/kishor-jothimurugan/" title="LinkedIn"><i data-feather="linkedin"></i></a>
 				|
 				<a href="cv.pdf" class="blog_cv">[cv]</a>
-				
-				
+
+
 			</ul>
 		</nav>
 	</div>
 
 	<nav class="nav">
 		<ul class="flat">
-			
+
 		</ul>
 	</nav>
 </div>
@@ -64,44 +64,46 @@ I am being advised by <a href="https://www.cis.upenn.edu/~alur">Rajeev Alur</a>.
 B.Sc. (Honors) in Mathematics and Computer Science from the
 <a href="https://www.cmi.ac.in">Chennai Mathematical Institute</a>.</p>
 
-<p>My (broad) research areas of interest include formal methods, verification, programming languages
-and machine learning. In particular, I am interested in applying formal methods to
-improve applicability and reliability of deep reinforcement learning methods,
-verifying systems with machine learning components and using machine learning to
-improve scalability of program analysis and verification techniques.</p>
+<p>My (broad) areas of interest include formal methods, verification, and machine learning.
+In particular, I am interested in applying formal methods to
+improve applicability and reliability of deep reinforcement learning,
+verifying systems with neural network components, and using machine learning to
+improve scalability of program analysis and verification.</p>
+
+<p>My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
+DRL has been shown to be successful in many applications such as robotics and game playing.
+However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
+it is not always straightforward to define rewards for the task at hand. In
+(<a href="paper/spectrl_full.pdf">NeurIPS&rsquo;20</a>) we provide a way to
+overcome this challenge by proposing an algorithm that automatically generates rewards from
+a high level logical specification.
+Another major drawback of DRL is that it does not provide any guarantee about
+the learned policy. In safety critical applications, we would like to verify that the
+learned policy is, in fact, safe. An interesting research direction that I am looking into, here,
+is to see how one can decompose an
+RL task into simpler tasks, so that, not only is it easier to learn policies for the simpler tasks,
+but it also makes verification faster.</p>
 
 			</div><div>
-			
 
-<h3 id="projects">Projects</h3>
-
-<ul>
-<li><p><strong>Formal Methods for Reinforcement Learning.</strong>
-Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?</p></li>
-
-<li><p><strong>Streaming Algorithms over Probabilistic Streams.</strong>
-In streaming algorithms, streams are defined to be sequences of data points. In this project, we consider probabilistic streams which are sequences of distributions over a finite set of events. We analyze space complexity of streaming computation in this setting for different query classes.</p></li>
-</ul>
-
-			</div><div>
-			
 
 <h3 id="publications">Publications</h3>
 
 <ul>
-<li><strong>A composable specification language for reinforcement learning tasks</strong>, Kishor Jothimurugan,
+<li><p><strong>A composable specification language for reinforcement learning tasks</strong>, Kishor Jothimurugan,
 Rajeev Alur, Osbert Bastani. <em>Neural Information Processing Systems (NeurIPS), 2019</em>.<br />
-[<a href="papers/spectrl_full.pdf">paper</a>][<a href="slides/spectrl.pdf">slides</a>][<a href="https://github.com/keyshor/spectrl_tool">code</a>]</li>
+[<a href="papers/spectrl_full.pdf">paper</a>][<a href="https://drive.google.com/file/d/1-TfjsnnWWFI9Dz0rAGBgjoRJ6ESlKSzJ/view?usp=sharing">slides</a>][<a href="https://github.com/keyshor/spectrl_tool">code</a>]</p></li>
+
+<li><p><strong>Space-efficient query evaluation over probabilistic event streams</strong>, Rajeev Alur, Yu Chen,
+Kishor Jothimurugan, Sanjeev Khanna. <em>Logic in Computer Science (LICS), 2020</em>.<br />
+[<a href="papers/lics20.pdf">paper</a>][<a href="https://docs.google.com/presentation/d/1hIBcbCh8aD63NEWL2lydmi2Wprz72wcQohP8e8yU1BA/edit?usp=sharing">slides</a>]</p></li>
 </ul>
 
 <h3 id="drafts-and-reports">Drafts and Reports</h3>
 
 <ul>
-<li><p><strong>Space-efficient query evaluation over probabilistic event streams</strong>, Rajeev Alur, Yu Chen,
-Kishor Jothimurugan, Sanjeev Khanna. <em>In submission</em>.</p></li>
-
-<li><p><strong>State and action abstractions for hierarchical deep reinforcement learning</strong>, Kishor Jothimurugan,
-Wenbo Zhang, Osbert Bastani, Rajeev Alur. <em>In submission</em>.</p></li>
+<li><p><strong>Abstract value iteration for hierarchical deep reinforcement learning</strong>, Kishor Jothimurugan,
+Osbert Bastani, Rajeev Alur. <em>In submission</em>.</p></li>
 
 <li><p><strong>Techniques for verifying robustness of neural networks</strong>, Kishor Jothimurugan.
 <em>WPE II Survey Report</em>.<br />
@@ -109,16 +111,21 @@ Wenbo Zhang, Osbert Bastani, Rajeev Alur. <em>In submission</em>.</p></li>
 </ul>
 
 			</div><div>
-			
 
-<h3 id="other-projects">Other Projects</h3>
+
+<h3 id="internships">Internships</h3>
 
 <ul>
-<li><strong>SDE Internship at Amazon Web Services.</strong>
-I worked as an intern in the <a href="https://aws.amazon.com/blogs/security/tag/automated-reasoning/">Automated Reasoning Group</a>
-at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
-security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on using machine learning to identify sinks in
-the codebase of AWS storage services.</li>
+<li><p><strong>Research Internship at Nokia Bell Labs (Summer 2020).</strong>
+I worked on applications of deep reinforcement learning and imitation learning to
+real time decision making problems such as logistics optimization.
+I also spent some time on applying RL to collision avoidance in drones.</p></li>
+
+<li><p><strong>SDE Internship at Amazon Web Services (Summer 2019).</strong>
+I interned with the <a href="https://aws.amazon.com/blogs/security/tag/automated-reasoning/">Automated Reasoning Group</a>
+at AWS. I worked on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
+security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on applying machine learning to identify sinks in
+the codebase of AWS storage services.</p></li>
 </ul>
 
 <h4 id="graduate-course-projects">Graduate Course Projects</h4>
@@ -152,7 +159,7 @@ var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'UA-1234-6', 'auto');
-	
+
 	ga('send', 'pageview');
 }
 </script>

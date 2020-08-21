@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Introduction" />
 <meta property="og:description" content="I am a third-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from the Chennai Mathematical Institute.
-My (broad) research areas of interest include formal methods, verification, programming languages and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning methods, verifying systems with machine learning components and using machine learning to improve scalability of program analysis and verification techniques." />
+My (broad) areas of interest include formal methods, verification, and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning, verifying systems with neural network components, and using machine learning to improve scalability of program analysis and verification." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://seas.upenn.edu/~kishor/introduction/" />
 <meta property="article:published_time" content="2019-10-11T10:39:41-04:00" />
@@ -21,7 +21,7 @@ My (broad) research areas of interest include formal methods, verification, prog
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Introduction"/>
 <meta name="twitter:description" content="I am a third-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from the Chennai Mathematical Institute.
-My (broad) research areas of interest include formal methods, verification, programming languages and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning methods, verifying systems with machine learning components and using machine learning to improve scalability of program analysis and verification techniques."/>
+My (broad) areas of interest include formal methods, verification, and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning, verifying systems with neural network components, and using machine learning to improve scalability of program analysis and verification."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/normalize.css />
@@ -49,11 +49,25 @@ I am being advised by <a href="https://www.cis.upenn.edu/~alur">Rajeev Alur</a>.
 B.Sc. (Honors) in Mathematics and Computer Science from the
 <a href="https://www.cmi.ac.in">Chennai Mathematical Institute</a>.</p>
 
-<p>My (broad) research areas of interest include formal methods, verification, programming languages
-and machine learning. In particular, I am interested in applying formal methods to
-improve applicability and reliability of deep reinforcement learning methods,
-verifying systems with machine learning components and using machine learning to
-improve scalability of program analysis and verification techniques.</p>
+<p>My (broad) areas of interest include formal methods, verification, and machine learning.
+In particular, I am interested in applying formal methods to
+improve applicability and reliability of deep reinforcement learning,
+verifying systems with neural network components, and using machine learning to
+improve scalability of program analysis and verification.</p>
+
+<p>My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
+DRL has been shown to be successful in many applications such as robotics and game playing.
+However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
+it is not always straightforward to define rewards for the task at hand. In
+(<a href="paper/spectrl_full.pdf">NeurIPS&rsquo;20</a>) we provide a way to
+overcome this challenge by proposing an algorithm that automatically generates rewards from
+a high level logical specification.
+Another major drawback of DRL is that it does not provide any guarantee about
+the learned policy. In safety critical applications, we would like to verify that the
+learned policy is, in fact, safe. An interesting research direction that I am looking into, here,
+is to see how one can decompose an
+RL task into simpler tasks, so that, not only is it easier to learn policies for the simpler tasks,
+but it also makes verification faster.</p>
 
 </div>
 
@@ -71,7 +85,7 @@ var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'UA-1234-6', 'auto');
-	
+
 	ga('send', 'pageview');
 }
 </script>

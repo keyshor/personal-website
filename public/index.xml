@@ -17,7 +17,8 @@
       <pubDate>Fri, 11 Oct 2019 13:14:31 -0400</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/other_projects/</guid>
-      <description>Other Projects  SDE Internship at Amazon Web Services. I worked as an intern in the Automated Reasoning Group at AWS during the summer of 2019 on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.</description>
+      <description>Internships  Research Internship at Nokia Bell Labs (Summer 2020). I worked on applications of deep reinforcement learning and imitation learning to real time decision making problems such as logistics optimization. I also spent some time on applying RL to collision avoidance in drones.
+ SDE Internship at Amazon Web Services (Summer 2019). I interned with the Automated Reasoning Group at AWS. I worked on automatically discovering sinks of sensitive data in Java code.</description>
     </item>
     
     <item>
@@ -36,8 +37,10 @@
       
       <guid>https://seas.upenn.edu/~kishor/publications/</guid>
       <description>Publications  A composable specification language for reinforcement learning tasks, Kishor Jothimurugan, Rajeev Alur, Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
-[paper][slides][code]  Drafts and Reports  Space-efficient query evaluation over probabilistic event streams, Rajeev Alur, Yu Chen, Kishor Jothimurugan, Sanjeev Khanna. In submission.
- State and action abstractions for hierarchical deep reinforcement learning, Kishor Jothimurugan, Wenbo Zhang, Osbert Bastani, Rajeev Alur. In submission.
+[paper][slides][code]
+ Space-efficient query evaluation over probabilistic event streams, Rajeev Alur, Yu Chen, Kishor Jothimurugan, Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
+[paper][slides]
+  Drafts and Reports  Abstract value iteration for hierarchical deep reinforcement learning, Kishor Jothimurugan, Osbert Bastani, Rajeev Alur. In submission.
  Techniques for verifying robustness of neural networks, Kishor Jothimurugan.</description>
     </item>
     
@@ -48,7 +51,7 @@
       
       <guid>https://seas.upenn.edu/~kishor/introduction/</guid>
       <description>I am a third-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from the Chennai Mathematical Institute.
-My (broad) research areas of interest include formal methods, verification, programming languages and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning methods, verifying systems with machine learning components and using machine learning to improve scalability of program analysis and verification techniques.</description>
+My (broad) areas of interest include formal methods, verification, and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning, verifying systems with neural network components, and using machine learning to improve scalability of program analysis and verification.</description>
     </item>
     
   </channel>
