@@ -19,9 +19,10 @@ My current research focusses on applications of formal methods to deep reinforce
 DRL has been shown to be successful in many applications such as robotics and game playing.
 However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
 it is not always straightforward to define rewards for the task at hand. In
-our [NeurIPS'20](papers/spectrl_full.pdf)) paper we provide a way to
+our [NeurIPS'20](papers/spectrl_full.pdf) paper we provide a way to
 overcome this challenge by proposing an algorithm that automatically generates rewards from
 a high level logical specification.
+
 Another major drawback of DRL is that it does not provide any guarantee about
 the learned policy. In safety critical applications, we would like to verify that the
 learned policy is, in fact, safe. Towards this goal, I am working on a project

@@ -36,18 +36,11 @@
       <pubDate>Fri, 11 Oct 2019 10:40:00 -0400</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/publications/</guid>
-      <description>Publications  A composable specification language for reinforcement learning tasks.
-Kishor Jothimurugan, Rajeev Alur, Osbert Bastani.
-Neural Information Processing Systems (NeurIPS), 2019.
+      <description>Publications  A composable specification language for reinforcement learning tasks. Kishor Jothimurugan, Rajeev Alur and Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
 [paper][slides][code]
- Space-efficient query evaluation over probabilistic event streams.
-Rajeev Alur, Yu Chen, Kishor Jothimurugan, Sanjeev Khanna.
-Logic in Computer Science (LICS), 2020.
+ Space-efficient query evaluation over probabilistic event streams. Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
 [paper][slides]
-  Drafts and Reports  Abstract value iteration for hierarchical deep reinforcement learning.
-Kishor Jothimurugan, Osbert Bastani, Rajeev Alur.
-In submission.
- Techniques for verifying robustness of neural networks.</description>
+  Drafts and Reports  Abstract value iteration for hierarchical deep reinforcement learning. Kishor Jothimurugan, Osbert Bastani and Rajeev Alur. In submission.</description>
     </item>
     
     <item>
