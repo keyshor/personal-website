@@ -15,6 +15,8 @@ improve applicability and reliability of deep reinforcement learning,
 verifying systems with neural network components, and using machine learning to
 improve scalability of program analysis and verification.
 
+### Current Research
+
 My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
 DRL has been shown to be successful in many applications such as robotics and game playing.
 However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
