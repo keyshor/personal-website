@@ -9,7 +9,8 @@ draft: false
 * __A composable specification language for reinforcement learning tasks__.
    Kishor Jothimurugan, Rajeev Alur and Osbert Bastani.
    _Neural Information Processing Systems (NeurIPS), 2019_.  
-   [[paper](papers/spectrl_full.pdf)][[arXiv](https://arxiv.org/abs/2008.09293)]
+   [[paper](papers/spectrl_full.pdf)]
+   [[arXiv](https://arxiv.org/abs/2008.09293)]
    [[slides](https://drive.google.com/file/d/1-TfjsnnWWFI9Dz0rAGBgjoRJ6ESlKSzJ/view?usp=sharing)]
    [[code](https://github.com/keyshor/spectrl_tool)]
 
