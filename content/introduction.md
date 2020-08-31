@@ -4,7 +4,7 @@ date: 2019-10-11T10:39:41-04:00
 draft: false
 ---
 
-I am a third-year PhD student in computer science at the University of Pennsylvania.
+I am a fourth-year PhD student in computer science at the University of Pennsylvania.
 I am being advised by [Rajeev Alur](https://www.cis.upenn.edu/~alur). I received my
 B.Sc. (Honors) in Mathematics and Computer Science from the
 [Chennai Mathematical Institute](https://www.cmi.ac.in).
@@ -21,7 +21,7 @@ My current research focusses on applications of formal methods to deep reinforce
 DRL has been shown to be successful in many applications such as robotics and game playing.
 However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
 it is not always straightforward to define rewards for the task at hand. In
-our [NeurIPS'20](papers/spectrl_full.pdf) paper we provide a way to
+our [NeurIPS'19](papers/spectrl_full.pdf) paper we provide a way to
 overcome this challenge by proposing an algorithm that automatically generates rewards from
 a high level logical specification.
 
