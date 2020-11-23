@@ -1,14 +1,17 @@
 ---
 title: "Other_projects"
-date: 2020-08-31
+date: 2020-11-23
 draft: false
 ---
-### Internships
+
+### Other Projects
+
+#### Internships
 
 * __Research Internship at Nokia Bell Labs (Summer 2020).__
     I worked on applications of deep reinforcement learning and imitation learning to
-    real time decision making problems such as logistics optimization.
-    I also spent some time on applying RL to collision avoidance in drones.
+    classical regenerative stopping problems and studied the effectiveness of learning based
+    solutions in logistics optimization.
 
 * __SDE Internship at Amazon Web Services (Summer 2019).__
     I interned with the [Automated Reasoning Group](https://aws.amazon.com/blogs/security/tag/automated-reasoning/)
@@ -19,7 +22,7 @@ draft: false
 #### Graduate Course Projects
 
 *  __PennCloud: Course Project for Software Systems (CIS 505).__
-    Built a cloud system with e-mail and storage services in a team of 4. I was responsible for the distributed backend key-value store based on Google BigTable that is sequentially consistent, fault tolerant and scalable.  
+    Built a cloud system with e-mail and storage services in a team of 4. I was responsible for the backend distributed key-value storage based on Google BigTable that is sequentially consistent, fault tolerant and scalable.  
 
 * __Online learning with many experts: Course Project for Computational Learning Theory (CIS 625).__
     Survey of online learning methods for dealing with too many (potentially infinite) experts.  

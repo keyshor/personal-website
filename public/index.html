@@ -18,7 +18,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://seas.upenn.edu/~kishor/" />
 
-<meta property="og:updated_time" content="2020-08-31T00:00:00+00:00" />
+<meta property="og:updated_time" content="2020-11-23T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content=""/>
@@ -78,7 +78,7 @@ improve scalability of program analysis and verification.</p>
 DRL has been shown to be successful in many applications such as robotics and game playing.
 However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
 it is not always straightforward to define rewards for the task at hand. In
-our <a href="papers/spectrl_full.pdf">NeurIPS&rsquo;19</a> paper we provide a way to
+our <a href="https://arxiv.org/abs/2008.09293">NeurIPS&rsquo;19</a> paper we provide a way to
 overcome this challenge by proposing an algorithm that automatically generates rewards from
 a high level logical specification.</p>
 
@@ -94,27 +94,47 @@ but it also makes verification faster.</p>
 
 <h3 id="publications">Publications</h3>
 
-<ul>
-<li><p><strong>A composable specification language for reinforcement learning tasks</strong>.
-Kishor Jothimurugan, Rajeev Alur and Osbert Bastani.
-<em>Neural Information Processing Systems (NeurIPS), 2019</em>.<br />
-[<a href="papers/spectrl_full.pdf">paper</a>]
-[<a href="https://arxiv.org/abs/2008.09293">arXiv</a>]
-[<a href="https://drive.google.com/file/d/1-TfjsnnWWFI9Dz0rAGBgjoRJ6ESlKSzJ/view?usp=sharing">slides</a>]
-[<a href="https://github.com/keyshor/spectrl_tool">code</a>]</p></li>
+<p><sup>*</sup> equal contribution, <sup>&dagger;</sup> authors in alphabetical order.</p>
 
-<li><p><strong>Space-efficient query evaluation over probabilistic event streams</strong>.
+<h4 id="conference-papers">Conference Papers</h4>
+
+<ul>
+<li><p><strong>Space-efficient query evaluation over probabilistic event streams</strong>.<sup>&dagger;</sup>
 Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna.
 <em>Logic in Computer Science (LICS), 2020</em>.<br />
 [<a href="papers/lics20.pdf">paper</a>]
 [<a href="https://docs.google.com/presentation/d/1hIBcbCh8aD63NEWL2lydmi2Wprz72wcQohP8e8yU1BA/edit?usp=sharing">slides</a>]</p></li>
+
+<li><p><strong>A composable specification language for reinforcement learning tasks</strong>.
+Kishor Jothimurugan, Rajeev Alur and Osbert Bastani.
+<em>Neural Information Processing Systems (NeurIPS), 2019</em>.<br />
+[<a href="https://arxiv.org/pdf/2008.09293.pdf">paper</a>]
+[<a href="https://arxiv.org/abs/2008.09293">arXiv</a>]
+[<a href="https://github.com/keyshor/spectrl_tool">code</a>]
+[<a href="https://drive.google.com/file/d/1-TfjsnnWWFI9Dz0rAGBgjoRJ6ESlKSzJ/view?usp=sharing">slides</a>]</p></li>
+</ul>
+
+<h4 id="workshop-papers">Workshop Papers</h4>
+
+<ul>
+<li><strong>Abstract value iteration for hierarchical deep reinforcement learning</strong>.
+Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
+<em>Deep RL Workshop, NeurIPS 2020</em>.<br />
+[<a href="papers/avi_workshop.pdf">paper</a>]</li>
 </ul>
 
 <h3 id="drafts-and-reports">Drafts and Reports</h3>
 
 <ul>
-<li><p><strong>Abstract value iteration for hierarchical deep reinforcement learning</strong>.
+<li><p><strong>Abstract value iteration for hierarchical reinforcement learning</strong>.
 Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
+<em>In submission</em>.<br />
+[<a href="https://arxiv.org/pdf/2010.15638.pdf">paper</a>]
+[<a href="https://arxiv.org/abs/2010.15638">arXiv</a>]
+[<a href="https://drive.google.com/file/d/1cu037p8c5xn7AzcII5a-VozgBIBpDuET/view?usp=sharing">slides</a>]</p></li>
+
+<li><p><strong>Compositional learning and verification of neural network controllers</strong>.
+Radoslav Ivanov,<sup>*</sup> Kishor Jothimurugan,<sup>*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
 <em>In submission</em>.</p></li>
 
 <li><p><strong>Techniques for verifying robustness of neural networks</strong>.
@@ -126,13 +146,15 @@ Kishor Jothimurugan.
 			</div><div>
 
 
-<h3 id="internships">Internships</h3>
+<h3 id="other-projects">Other Projects</h3>
+
+<h4 id="internships">Internships</h4>
 
 <ul>
 <li><p><strong>Research Internship at Nokia Bell Labs (Summer 2020).</strong>
 I worked on applications of deep reinforcement learning and imitation learning to
-real time decision making problems such as logistics optimization.
-I also spent some time on applying RL to collision avoidance in drones.</p></li>
+classical regenerative stopping problems and studied the effectiveness of learning based
+solutions in logistics optimization.</p></li>
 
 <li><p><strong>SDE Internship at Amazon Web Services (Summer 2019).</strong>
 I interned with the <a href="https://aws.amazon.com/blogs/security/tag/automated-reasoning/">Automated Reasoning Group</a>
@@ -145,7 +167,7 @@ the codebase of AWS storage services.</p></li>
 
 <ul>
 <li><p><strong>PennCloud: Course Project for Software Systems (CIS 505).</strong>
-Built a cloud system with e-mail and storage services in a team of 4. I was responsible for the distributed backend key-value store based on Google BigTable that is sequentially consistent, fault tolerant and scalable.</p></li>
+Built a cloud system with e-mail and storage services in a team of 4. I was responsible for the backend distributed key-value storage based on Google BigTable that is sequentially consistent, fault tolerant and scalable.</p></li>
 
 <li><p><strong>Online learning with many experts: Course Project for Computational Learning Theory (CIS 625).</strong>
 Survey of online learning methods for dealing with too many (potentially infinite) experts.<br />
@@ -160,7 +182,7 @@ Used symbolic execution tool KLEE to test non-interference properties.<br />
 		</div>
 		</div>
 		<div class="footer wrapper">
-	<object align="left">Last Updated August 31, 2020</object>
+	<object align="left">Last Updated November 23, 2020</object>
 	<nav class="nav">
 		<div><a href="https://github.com/hadisinaee/avicenna">Avicenna Theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>

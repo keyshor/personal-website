@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-date: 2020-08-31
+date: 2020-11-23
 draft: false
 ---
 
@@ -21,7 +21,7 @@ My current research focusses on applications of formal methods to deep reinforce
 DRL has been shown to be successful in many applications such as robotics and game playing.
 However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
 it is not always straightforward to define rewards for the task at hand. In
-our [NeurIPS'19](papers/spectrl_full.pdf) paper we provide a way to
+our [NeurIPS'19](https://arxiv.org/abs/2008.09293) paper we provide a way to
 overcome this challenge by proposing an algorithm that automatically generates rewards from
 a high level logical specification.
 

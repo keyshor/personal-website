@@ -6,7 +6,7 @@
     <description>Recent content on Kishor Jothimurugan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://seas.upenn.edu/~kishor/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Introduction</title>
       <link>https://seas.upenn.edu/~kishor/introduction/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/introduction/</guid>
       <description>I am a fourth-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from the Chennai Mathematical Institute.
@@ -24,17 +24,17 @@ My (broad) areas of interest include formal methods, verification, and machine l
     <item>
       <title>Other_projects</title>
       <link>https://seas.upenn.edu/~kishor/other_projects/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/other_projects/</guid>
-      <description>Internships  Research Internship at Nokia Bell Labs (Summer 2020). I worked on applications of deep reinforcement learning and imitation learning to real time decision making problems such as logistics optimization. I also spent some time on applying RL to collision avoidance in drones.
- SDE Internship at Amazon Web Services (Summer 2019). I interned with the Automated Reasoning Group at AWS. I worked on automatically discovering sinks of sensitive data in Java code.</description>
+      <description>Other Projects Internships  Research Internship at Nokia Bell Labs (Summer 2020). I worked on applications of deep reinforcement learning and imitation learning to classical regenerative stopping problems and studied the effectiveness of learning based solutions in logistics optimization.
+ SDE Internship at Amazon Web Services (Summer 2019). I interned with the Automated Reasoning Group at AWS. I worked on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for security vulnerabilities in code.</description>
     </item>
     
     <item>
       <title>Projects</title>
       <link>https://seas.upenn.edu/~kishor/projects/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/projects/</guid>
       <description>Projects  Formal Methods for Reinforcement Learning. Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?</description>
@@ -43,14 +43,15 @@ My (broad) areas of interest include formal methods, verification, and machine l
     <item>
       <title>Publications</title>
       <link>https://seas.upenn.edu/~kishor/publications/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/publications/</guid>
-      <description>Publications  A composable specification language for reinforcement learning tasks. Kishor Jothimurugan, Rajeev Alur and Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
-[paper] [arXiv] [slides] [code]
- Space-efficient query evaluation over probabilistic event streams. Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
+      <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
+Conference Papers  Space-efficient query evaluation over probabilistic event streams.&amp;dagger; Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
 [paper] [slides]
-  Drafts and Reports  Abstract value iteration for hierarchical deep reinforcement learning. Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.</description>
+ A composable specification language for reinforcement learning tasks. Kishor Jothimurugan, Rajeev Alur and Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
+[paper] [arXiv] [code] [slides]
+  Workshop Papers  Abstract value iteration for hierarchical deep reinforcement learning.</description>
     </item>
     
   </channel>
