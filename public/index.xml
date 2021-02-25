@@ -6,10 +6,24 @@
     <description>Recent content on Kishor Jothimurugan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://seas.upenn.edu/~kishor/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publications</title>
+      <link>https://seas.upenn.edu/~kishor/publications/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://seas.upenn.edu/~kishor/publications/</guid>
+      <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
+Conference Papers  Abstract value iteration for hierarchical reinforcement learning. Kishor Jothimurugan, Osbert Bastani and Rajeev Alur. Artificial Intelligence and Statistics (AISTATS), 2021.
+[paper] [arXiv] [code] [slides]
+ Space-efficient query evaluation over probabilistic event streams.&amp;dagger; Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
+[paper] [slides]
+ A composable specification language for reinforcement learning tasks.</description>
+    </item>
     
     <item>
       <title>Introduction</title>
@@ -38,20 +52,6 @@ My (broad) areas of interest include formal methods, verification, and machine l
       
       <guid>https://seas.upenn.edu/~kishor/projects/</guid>
       <description>Projects  Formal Methods for Reinforcement Learning. Reinforcement learning is a promising approach for learning control policies for robot tasks. This project focusses on applying techniques from logic and formal methods to enhance reinforcement learning. For example, how to compile formal logical specifications to reward functions so that one can use existing RL algorithms to learn policies for such specifications? How to use state abstractions for hierarchical reinforcement learning? How to verify/test learned policies for safety properties?</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://seas.upenn.edu/~kishor/publications/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://seas.upenn.edu/~kishor/publications/</guid>
-      <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
-Conference Papers  Space-efficient query evaluation over probabilistic event streams.&amp;dagger; Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
-[paper] [slides]
- A composable specification language for reinforcement learning tasks. Kishor Jothimurugan, Rajeev Alur and Osbert Bastani. Neural Information Processing Systems (NeurIPS), 2019.
-[paper] [arXiv] [code] [slides]
-  Workshop Papers  Abstract value iteration for hierarchical deep reinforcement learning.</description>
     </item>
     
   </channel>

@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2020-11-23
+date: 2021-02-25
 draft: false
 ---
 
@@ -8,6 +8,14 @@ draft: false
 <sup>\*</sup> equal contribution, <sup>&dagger;</sup> authors in alphabetical order.
 
 #### Conference Papers
+
+* __Abstract value iteration for hierarchical reinforcement learning__.
+   Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
+   _Artificial Intelligence and Statistics (AISTATS), 2021_.  
+   [[paper](https://arxiv.org/pdf/2010.15638.pdf)]
+   [[arXiv](https://arxiv.org/abs/2010.15638)]
+   [[code](https://github.com/keyshor/abstract-value-iteration)]
+   [[slides](https://drive.google.com/file/d/1cu037p8c5xn7AzcII5a-VozgBIBpDuET/view?usp=sharing)]
 
 * __Space-efficient query evaluation over probabilistic event streams__.<sup>&dagger;</sup>
    Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna.
@@ -34,12 +42,9 @@ draft: false
 
 ### Drafts and Reports
 
-* __Abstract value iteration for hierarchical reinforcement learning__.
-   Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
-   _In submission_.  
-   [[paper](https://arxiv.org/pdf/2010.15638.pdf)]
-   [[arXiv](https://arxiv.org/abs/2010.15638)]
-   [[slides](https://drive.google.com/file/d/1cu037p8c5xn7AzcII5a-VozgBIBpDuET/view?usp=sharing)]
+* __Compositional reinforcement learning from logical specifications__.
+   Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
+   _In submission_.
 
 * __Compositional learning and verification of neural network controllers__.
    Radoslav Ivanov,<sup>\*</sup> Kishor Jothimurugan,<sup>\*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
