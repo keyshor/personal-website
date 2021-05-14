@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2021-02-25
+date: 2021-05-14
 draft: false
 ---
 
@@ -49,6 +49,10 @@ draft: false
 * __Compositional learning and verification of neural network controllers__.
    Radoslav Ivanov,<sup>\*</sup> Kishor Jothimurugan,<sup>\*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
    _In submission_.
+
+* __Learning Algorithms for Regenerative Stopping Problems with Applications to Shipping Consolidation in Logistics__.
+   Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.  
+   [[pdf](https://arxiv.org/pdf/2105.02318.pdf)][[arXiv](https://arxiv.org/abs/2105.02318)]
 
 * __Techniques for verifying robustness of neural networks__.
    Kishor Jothimurugan.

@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-date: 2020-11-23
+date: 2021-05-14
 draft: false
 ---
 
@@ -19,15 +19,13 @@ improve scalability of program analysis and verification.
 
 My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
 DRL has been shown to be successful in many applications such as robotics and game playing.
-However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
-it is not always straightforward to define rewards for the task at hand. In
-our [NeurIPS'19](https://arxiv.org/abs/2008.09293) paper we provide a way to
-overcome this challenge by proposing an algorithm that automatically generates rewards from
-a high level logical specification.
-
-Another major drawback of DRL is that it does not provide any guarantee about
-the learned policy. In safety critical applications, we would like to verify that the
-learned policy is, in fact, safe. Towards this goal, I am working on a project
-on decomposing
-RL tasks into simpler tasks so that, not only is it easier to learn policies for the simpler tasks,
-but it also makes verification faster.
+However, existing approaches do not scale well to complex long horizon tasks.
+My research attempts to tackle such problems by decomposing the task
+into smaller subtasks enabling compositional learning.
+The approaches considered include designing a composable specification language
+([NeurIPS'19](https://arxiv.org/abs/2008.09293)), leveraging the structure in formal
+specifications to improve learning, as well as using state and action abstractions
+([AISTATS'21](https://arxiv.org/abs/2010.15638)) for hierarchical reinforcement learning.
+Furthermore, the decomposition into subtasks makes it possible to learn policies
+that generalize to a wide variety of tasks and also perform compositional verification
+of safety properties.

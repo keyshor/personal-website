@@ -22,7 +22,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://seas.upenn.edu/~kishor/" />
 
-	<meta property="og:updated_time" content="2021-02-25T00:00:00+00:00" />
+	<meta property="og:updated_time" content="2021-05-14T00:00:00+00:00" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:description" content="" />
@@ -88,18 +88,17 @@
 
 			<p>My current research focusses on applications of formal methods to deep reinforcement learning (DRL).
 				DRL has been shown to be successful in many applications such as robotics and game playing.
-				However, applying DRL to new problems is challenging due to a number of reasons. Firstly,
-				it is not always straightforward to define rewards for the task at hand. In
-				our <a href="https://arxiv.org/abs/2008.09293">NeurIPS&rsquo;19</a> paper we provide a way to
-				overcome this challenge by proposing an algorithm that automatically generates rewards from
-				a high level logical specification.</p>
-
-			<p>Another major drawback of DRL is that it does not provide any guarantee about
-				the learned policy. In safety critical applications, we would like to verify that the
-				learned policy is, in fact, safe. Towards this goal, I am working on a project
-				on decomposing
-				RL tasks into simpler tasks so that, not only is it easier to learn policies for the simpler tasks,
-				but it also makes verification faster.</p>
+				However, existing approaches do not scale well to complex long horizon tasks.
+				My research attempts to tackle such problems by decomposing the task
+				into smaller subtasks enabling compositional learning.
+				The approaches considered include designing a composable specification language
+				(<a href="https://arxiv.org/abs/2008.09293">NeurIPS&rsquo;19</a>), leveraging the structure in formal
+				specifications to improve learning, as well as using state and action abstractions
+				(<a href="https://arxiv.org/abs/2010.15638">AISTATS&rsquo;21</a>) for hierarchical reinforcement
+				learning.
+				Furthermore, the decomposition into subtasks makes it possible to learn policies
+				that generalize to a wide variety of tasks and also perform compositional verification
+				of safety properties.</p>
 
 		</div>
 		<div>
@@ -177,6 +176,14 @@
 				</li>
 
 				<li>
+					<p><strong>Learning Algorithms for Regenerative Stopping Problems with Applications to Shipping
+							Consolidation in Logistics</strong>.
+						Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.<br />
+						[<a href="https://arxiv.org/pdf/2105.02318.pdf">pdf</a>][<a
+							href="https://arxiv.org/abs/2105.02318">arXiv</a>]</p>
+				</li>
+
+				<li>
 					<p><strong>Techniques for verifying robustness of neural networks</strong>.
 						Kishor Jothimurugan.
 						<em>WPE II Survey Report</em>.<br />
@@ -246,7 +253,7 @@
 	</div>
 	</div>
 	<div class="footer wrapper">
-		<object align="left">Last Updated February 25, 2021</object>
+		<object align="left">Last Updated May 14, 2021</object>
 		<nav class="nav">
 			<div><a href="https://github.com/hadisinaee/avicenna">Avicenna Theme</a> | Built with <a
 					href="https://gohugo.io">Hugo</a></div>
