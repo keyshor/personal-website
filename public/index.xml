@@ -6,7 +6,7 @@
     <description>Recent content on Kishor Jothimurugan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://seas.upenn.edu/~kishor/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Introduction</title>
       <link>https://seas.upenn.edu/~kishor/introduction/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/introduction/</guid>
       <description>I am a fourth-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from the Chennai Mathematical Institute.
@@ -24,15 +24,15 @@ My (broad) areas of interest include formal methods, verification, and machine l
     <item>
       <title>Publications</title>
       <link>https://seas.upenn.edu/~kishor/publications/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://seas.upenn.edu/~kishor/publications/</guid>
       <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
-Conference Papers  Abstract value iteration for hierarchical reinforcement learning. Kishor Jothimurugan, Osbert Bastani and Rajeev Alur. Artificial Intelligence and Statistics (AISTATS), 2021.
+Conference Papers  Compositional learning and verification of neural network controllers. Radoslav Ivanov,* Kishor Jothimurugan,* Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani. International Conference on Embedded Software (EMSOFT), 2021.
+[paper] [code]
+ Abstract value iteration for hierarchical reinforcement learning. Kishor Jothimurugan, Osbert Bastani and Rajeev Alur. Artificial Intelligence and Statistics (AISTATS), 2021.
 [paper] [arXiv] [code] [slides]
- Space-efficient query evaluation over probabilistic event streams.&amp;dagger; Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna. Logic in Computer Science (LICS), 2020.
-[paper] [slides]
- A composable specification language for reinforcement learning tasks.</description>
+ Space-efficient query evaluation over probabilistic event streams.</description>
     </item>
     
     <item>

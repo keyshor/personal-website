@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2021-05-14
+date: 2021-08-17
 draft: false
 ---
 
@@ -8,6 +8,12 @@ draft: false
 <sup>\*</sup> equal contribution, <sup>&dagger;</sup> authors in alphabetical order.
 
 #### Conference Papers
+
+* __Compositional learning and verification of neural network controllers__.
+   Radoslav Ivanov,<sup>\*</sup> Kishor Jothimurugan,<sup>\*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
+   _International Conference on Embedded Software (EMSOFT), 2021_.  
+   [[paper](papers/emsoft21.pdf)]
+   [[code](https://github.com/keyshor/autonomous_car_verification)]
 
 * __Abstract value iteration for hierarchical reinforcement learning__.
    Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
@@ -39,20 +45,18 @@ draft: false
    _Deep RL Workshop, NeurIPS 2020_.  
    [[paper](papers/avi_workshop.pdf)]
 
+* __Compositional reinforcement learning from logical specifications__.
+   Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
+   _Workshop on Synthesis (SYNT), co-located with CAV 2021_.  
+   [[extended abstract](papers/synt_workshop.pdf)]
+
 
 ### Drafts and Reports
 
-* __Compositional reinforcement learning from logical specifications__.
-   Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
-   _In submission_.
-
-* __Compositional learning and verification of neural network controllers__.
-   Radoslav Ivanov,<sup>\*</sup> Kishor Jothimurugan,<sup>\*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
-   _In submission_.
-
 * __Learning Algorithms for Regenerative Stopping Problems with Applications to Shipping Consolidation in Logistics__.
    Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.  
-   [[pdf](https://arxiv.org/pdf/2105.02318.pdf)][[arXiv](https://arxiv.org/abs/2105.02318)]
+   [[pdf](https://arxiv.org/pdf/2105.02318.pdf)]
+   [[arXiv](https://arxiv.org/abs/2105.02318)]
 
 * __Techniques for verifying robustness of neural networks__.
    Kishor Jothimurugan.

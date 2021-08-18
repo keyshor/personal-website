@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-date: 2021-05-14
+date: 2021-08-17
 draft: false
 ---
 
@@ -25,7 +25,7 @@ into smaller subtasks enabling compositional learning.
 The approaches considered include designing a composable specification language
 ([NeurIPS'19](https://arxiv.org/abs/2008.09293)), leveraging the structure in formal
 specifications to improve learning, as well as using state and action abstractions
-([AISTATS'21](https://arxiv.org/abs/2010.15638)) for hierarchical reinforcement learning.
+for hierarchical reinforcement learning ([AISTATS'21](https://arxiv.org/abs/2010.15638)).
 Furthermore, the decomposition into subtasks makes it possible to learn policies
 that generalize to a wide variety of tasks and also perform compositional verification
-of safety properties.
+of safety properties ([EMSOFT'21](papers/emsoft21.pdf)).
