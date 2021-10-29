@@ -29,7 +29,7 @@ draft: false
    [[arXiv](https://arxiv.org/abs/2010.15638)]
    [[code](https://github.com/keyshor/abstract-value-iteration)]
    [[slides](https://drive.google.com/file/d/1cu037p8c5xn7AzcII5a-VozgBIBpDuET/view?usp=sharing)]
-   [[talk](https://www.youtube.com/watch?v=-gXl5r4Z-N4&ab_channel=SimonsInstitute)]
+   [[talk](https://simons.berkeley.edu/talks/tbd-325)]
 
 * __Space-efficient query evaluation over probabilistic event streams__.<sup>&dagger;</sup>
    Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna.
@@ -61,7 +61,7 @@ draft: false
 
 ### Drafts and Reports
 
-* __A Framework for Transforming Specifications in Reinforcement Learning__.<sup>&dagger;</sup>
+* __A framework for transforming specifications in reinforcement learning__.<sup>&dagger;</sup>
    Rajeev Alur, Suguman Bansal, Osbert Bastani, Kishor Jothimurugan.
    _In submission_.
 
