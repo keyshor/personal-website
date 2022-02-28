@@ -6,33 +6,32 @@
     <description>Recent content on Kishor Jothimurugan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://seas.upenn.edu/~kishor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Publications</title>
-      <link>https://seas.upenn.edu/~kishor/publications/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Introduction</title>
+      <link>https://seas.upenn.edu/~kishor/introduction/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://seas.upenn.edu/~kishor/publications/</guid>
-      <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
-Conference Papers  Compositional reinforcement learning from logical specifications. Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur. Neural Information Processing Systems (NeurIPS), 2021.
-[pdf] [arXiv] [code]
- Compositional learning and verification of neural network controllers. Radoslav Ivanov,* Kishor Jothimurugan,* Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani. International Conference on Embedded Software (EMSOFT), 2021.
-[pdf] [code] [slides]
- Abstract value iteration for hierarchical reinforcement learning.</description>
+      <guid>https://seas.upenn.edu/~kishor/introduction/</guid>
+      <description>I am a fifth-year PhD student in Computer Science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from Chennai Mathematical Institute.
+My (broad) areas of interest include formal methods, verification, and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning, verifying systems with neural network components, and using machine learning to improve scalability of program analysis and verification.</description>
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>https://seas.upenn.edu/~kishor/introduction/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Publications</title>
+      <link>https://seas.upenn.edu/~kishor/publications/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://seas.upenn.edu/~kishor/introduction/</guid>
-      <description>I am a fifth-year PhD student in computer science at the University of Pennsylvania. I am being advised by Rajeev Alur. I received my B.Sc. (Honors) in Mathematics and Computer Science from Chennai Mathematical Institute.
-My (broad) areas of interest include formal methods, verification, and machine learning. In particular, I am interested in applying formal methods to improve applicability and reliability of deep reinforcement learning, verifying systems with neural network components, and using machine learning to improve scalability of program analysis and verification.</description>
+      <guid>https://seas.upenn.edu/~kishor/publications/</guid>
+      <description>Publications * equal contribution, &amp;dagger; authors in alphabetical order.
+Conference Papers  A framework for transforming specifications in reinforcement learning.&amp;dagger; Rajeev Alur, Suguman Bansal, Osbert Bastani, Kishor Jothimurugan. Invited contribution (to appear), 2022.
+[pdf] [arXiv]
+ Compositional reinforcement learning from logical specifications. Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur. Neural Information Processing Systems (NeurIPS), 2021. Also presented at Workshop on Synthesis (SYNT), co-located with CAV 2021.
+[pdf] [arXiv] [code] [extended abstract]</description>
     </item>
     
     <item>

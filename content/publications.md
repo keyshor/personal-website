@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2021-11-18
+date: 2022-02-28
 draft: false
 ---
 
@@ -9,12 +9,20 @@ draft: false
 
 #### Conference Papers
 
+* __A framework for transforming specifications in reinforcement learning__.<sup>&dagger;</sup>
+   Rajeev Alur, Suguman Bansal, Osbert Bastani, Kishor Jothimurugan.
+   _Invited contribution (to appear), 2022_.  
+   [[pdf](https://arxiv.org/pdf/2111.00272.pdf)]
+   [[arXiv](https://arxiv.org/abs/2111.00272)]
+
 * __Compositional reinforcement learning from logical specifications__.
    Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
-   _Neural Information Processing Systems (NeurIPS), 2021_.  
+   _Neural Information Processing Systems (NeurIPS), 2021_.
+   Also presented at _Workshop on Synthesis (SYNT), co-located with CAV 2021_.  
    [[pdf](https://arxiv.org/pdf/2106.13906.pdf)]
    [[arXiv](https://arxiv.org/abs/2106.13906)]
    [[code](https://github.com/keyshor/dirl)]
+   [[extended abstract](papers/synt_workshop.pdf)]
 
 * __Compositional learning and verification of neural network controllers__.
    Radoslav Ivanov,<sup>\*</sup> Kishor Jothimurugan,<sup>\*</sup> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
@@ -25,12 +33,14 @@ draft: false
 
 * __Abstract value iteration for hierarchical reinforcement learning__.
    Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
-   _Artificial Intelligence and Statistics (AISTATS), 2021_.  
+   _Artificial Intelligence and Statistics (AISTATS), 2021_.
+   Also presented at _Deep RL Workshop, NeurIPS 2020_.  
    [[pdf](https://arxiv.org/pdf/2010.15638.pdf)]
    [[arXiv](https://arxiv.org/abs/2010.15638)]
    [[code](https://github.com/keyshor/abstract-value-iteration)]
    [[slides](https://drive.google.com/file/d/1cu037p8c5xn7AzcII5a-VozgBIBpDuET/view?usp=sharing)]
    [[talk](https://simons.berkeley.edu/talks/tbd-325)]
+   [[workshop version](papers/avi_workshop.pdf)]
 
 * __Space-efficient query evaluation over probabilistic event streams__.<sup>&dagger;</sup>
    Rajeev Alur, Yu Chen, Kishor Jothimurugan and Sanjeev Khanna.
@@ -55,24 +65,8 @@ draft: false
    _Workshop on Safe and Robust Control of Uncertain Systems, NeurIPS 2021_.  
    [[pdf](papers/safeRL21.pdf)]
 
-* __Compositional reinforcement learning from logical specifications__.
-   Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
-   _Workshop on Synthesis (SYNT), co-located with CAV 2021_.  
-   [[extended abstract](papers/synt_workshop.pdf)]
-
-* __Abstract value iteration for hierarchical deep reinforcement learning__.
-   Kishor Jothimurugan, Osbert Bastani and Rajeev Alur.
-   _Deep RL Workshop, NeurIPS 2020_.  
-   [[pdf](papers/avi_workshop.pdf)]
-
 
 ### Drafts and Reports
-
-* __A framework for transforming specifications in reinforcement learning__.<sup>&dagger;</sup>
-   Rajeev Alur, Suguman Bansal, Osbert Bastani, Kishor Jothimurugan.
-   _In submission_.  
-   [[pdf](https://arxiv.org/pdf/2111.00272.pdf)]
-   [[arXiv](https://arxiv.org/abs/2111.00272)]
 
 * __Learning algorithms for regenerative stopping problems with applications to shipping consolidation in logistics__.
    Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.  
