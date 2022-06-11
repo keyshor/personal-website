@@ -23,6 +23,11 @@ timeout = 3000
   icon = "github"
   url = "https://github.com/keyshor"
 
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/KeysShore"
+
 
 [[params.social]]
   name = "LinkedIn"
