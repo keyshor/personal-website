@@ -24,7 +24,7 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/normalize.css />
-	<link rel="stylesheet" type="text/css" media="screen" href=css/main.css%09/><script src=https://seas.upenn.edu/~kishor/js/feather.min.js></script><script src=https://seas.upenn.edu/~kishor/js/main.js></script>
+	<link rel="stylesheet" type="text/css" media="screen" href=https://seas.upenn.edu/~kishor/css/main.css /><script src=https://seas.upenn.edu/~kishor/js/feather.min.js></script><script src=https://seas.upenn.edu/~kishor/js/main.js></script>
 </head>
 
 
@@ -58,7 +58,7 @@
 </div>
 
 			<div>
-			<p>I am a fifth-year PhD student in Computer Science at the University of Pennsylvania.
+			<p>I am a final year PhD student in Computer Science at the University of Pennsylvania.
 I am being advised by <a href="https://www.cis.upenn.edu/~alur">Rajeev Alur</a>. I received my
 B.Sc. (Honors) in Mathematics and Computer Science from
 <a href="https://www.cmi.ac.in">Chennai Mathematical Institute</a>.</p>
@@ -68,20 +68,39 @@ improve applicability and reliability of deep reinforcement learning,
 verifying systems with neural network components, and using machine learning to
 improve scalability of program analysis and verification.</p>
 <h3 id="current-research">Current Research</h3>
-<p>My current research explores applications of formal methods in deep reinforcement learning (DRL).
-DRL has been shown to be successful in many applications such as robotics and game playing.
+<p>Reinforcement Learning (RL) has been shown to be successful in many applications including robotics and game playing.
 However, existing approaches do not scale well to complex long-horizon tasks.
-My research attempts to tackle such problems by decomposing the overall task
-into smaller subtasks enabling compositional learning.
-Some approaches I have proposed include designing a composable specification language
-(<a href="https://arxiv.org/abs/2008.09293">NeurIPS'19</a>), leveraging the structure in formal
-specifications to improve learning (<a href="https://arxiv.org/abs/2106.13906">NeurIPS'21</a>,
-<a href="papers/safeRL21.pdf">SafeRL'21</a>),
-as well as using state and action abstractions
-for hierarchical reinforcement learning (<a href="https://arxiv.org/abs/2010.15638">AISTATS'21</a>).
-Furthermore, the decomposition into subtasks makes it possible to learn policies
-that generalize to a wide variety of tasks and also to perform compositional verification
-of safety properties (<a href="papers/emsoft21.pdf">EMSOFT'21</a>).</p>
+My research attempts to tackle such problems using techniques from formal methods.
+More specifically, my work spans across the following themes.</p>
+<ul>
+<li>
+<p><strong>RL from logical specifications</strong>.
+Long-horizon tasks are challenging to express using Markovian rewards.
+This line of work focusses on designing RL algorithms for learning to perform
+tasks expressed in logical specification languages such as Linear Temporal Logic (LTL).
+I have contributed to the theoretical foundations of RL from LTL specifications
+(<a href="https://arxiv.org/pdf/2111.00272.pdf">Henzinger-60</a>). I have designed a composable
+specification language for specifying robotics tasks (<a href="https://arxiv.org/pdf/2008.09293.pdf">NeurIPS'19</a>)
+along with algorithms to learn policies to satisfy such specifications
+(<a href="https://arxiv.org/pdf/2106.13906.pdf">NeurIPS'21</a>, <a href="https://arxiv.org/pdf/2206.03348.pdf">CAV'22</a>).</p>
+</li>
+<li>
+<p><strong>Compositional reinforcement learning</strong>.
+I have also worked on RL algorithms that learn to perform long-horizon tasks by
+decomposing the given task into simpler subtasks.
+Such decompositions can be obtained using user provided state abstractions
+(<a href="https://arxiv.org/pdf/2010.15638.pdf">AISTATS'21</a>) or from the structure in a given
+logical specification (<a href="https://arxiv.org/pdf/2106.13906.pdf">NeurIPS'21</a>).
+I have also developed compositional RL algorithms for training policies that generalize to
+a wide variety of tasks (<a href="papers/rosac.pdf">Preprint</a>).</p>
+</li>
+<li>
+<p><strong>Verification of neural network controllers</strong>.
+Verifying safety of neural policies trained using RL is a challenging problem and current techniques
+do not scale well to long horizon. I have developed a compositional verification framework
+that leverages existing techniques and inductive reasoning to scale verification to long (potentially infinite) horizon (<a href="papers/emsoft21.pdf">EMSOFT'21</a>).</p>
+</li>
+</ul>
 
 			</div><div>
 			<h3 id="publications">Publications</h3>
@@ -93,14 +112,17 @@ of safety properties (<a href="papers/emsoft21.pdf">EMSOFT'21</a>).</p>
 Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
 <em>International Conference on Computer Aided Verification (CAV), 2022</em>.<br>
 [<a href="https://arxiv.org/pdf/2206.03348.pdf">pdf</a>]
-[<a href="https://arxiv.org/abs/2206.03348">arXiv</a>]</p>
+[<a href="https://arxiv.org/abs/2206.03348">arXiv</a>]
+[<a href="https://github.com/keyshor/high-nash">code</a>]
+[<a href="https://drive.google.com/file/d/1kCaVtR0u3n2Q7xRiXoha_jNWMTvp_ivS/view?usp=sharing">slides</a>]</p>
 </li>
 <li>
 <p><strong>A framework for transforming specifications in reinforcement learning</strong>.<!-- raw HTML omitted -->†<!-- raw HTML omitted -->
 Rajeev Alur, Suguman Bansal, Osbert Bastani, Kishor Jothimurugan.
 <em>Invited Contribution to Henzinger-60, 2022</em>.<br>
 [<a href="https://arxiv.org/pdf/2111.00272.pdf">pdf</a>]
-[<a href="https://arxiv.org/abs/2111.00272">arXiv</a>]</p>
+[<a href="https://arxiv.org/abs/2111.00272">arXiv</a>]
+[<a href="https://drive.google.com/file/d/13FVfj0E2F_5loOdwZczoi8iklDfFKRmb/view?usp=sharing">slides</a>]</p>
 </li>
 <li>
 <p><strong>Compositional reinforcement learning from logical specifications</strong>.
@@ -113,7 +135,7 @@ Kishor Jothimurugan, Suguman Bansal, Osbert Bastani and Rajeev Alur.
 </li>
 <li>
 <p><strong>Compositional learning and verification of neural network controllers</strong>.
-Radoslav Ivanov,<!-- raw HTML omitted -->*<!-- raw HTML omitted --> Kishor Jothimurugan,<!-- raw HTML omitted -->*<!-- raw HTML omitted --> Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
+Radoslav Ivanov<!-- raw HTML omitted -->*<!-- raw HTML omitted -->, Kishor Jothimurugan<!-- raw HTML omitted -->*<!-- raw HTML omitted -->, Steve Hsu, Shaan Vaidya, Rajeev Alur and Osbert Bastani.
 <em>International Conference on Embedded Software (EMSOFT), 2021</em>.<br>
 [<a href="papers/emsoft21.pdf">pdf</a>]
 [<a href="https://github.com/keyshor/autonomous_car_verification">code</a>]
@@ -150,12 +172,14 @@ Kishor Jothimurugan, Rajeev Alur and Osbert Bastani.
 <ul>
 <li>
 <p><strong>Robust option learning for adversarial generalization</strong>.
-Kishor Jothimurugan, Steve Hsu, Osbert Bastani and Rajeev Alur.<br>
+Kishor Jothimurugan, Steve Hsu, Osbert Bastani and Rajeev Alur.
+<em>Under review</em>.<br>
 [<a href="papers/rosac.pdf">pdf</a>]</p>
 </li>
 <li>
 <p><strong>Learning algorithms for regenerative stopping problems with applications to shipping consolidation in logistics</strong>.
-Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.<br>
+Kishor Jothimurugan, Matthew Andrews, Jeongran Lee and Lorenzo Maggi.
+<em>Intern report</em>.<br>
 [<a href="https://arxiv.org/pdf/2105.02318.pdf">pdf</a>]
 [<a href="https://arxiv.org/abs/2105.02318">arXiv</a>]</p>
 </li>
@@ -171,6 +195,14 @@ Kishor Jothimurugan.
 			<h3 id="other-projects">Other Projects</h3>
 <h4 id="internships">Internships</h4>
 <ul>
+<li>
+<p><strong>Applied Scientist Internship at Amazon Web Services (Summer 2022).</strong>
+I worked on a project on incorporating execution semantics during training of large language models for
+code generation. I explored different models for code generation that
+also predict traces obtained by running the generated code on various inputs.
+The trace prediction task is added as an auxiliary objective during training
+in order to improve semantic understanding of code by the model.</p>
+</li>
 <li>
 <p><strong>Research Internship at Nokia Bell Labs (Summer 2020).</strong>
 I explored applications of deep reinforcement learning and imitation learning in solving
@@ -207,7 +239,7 @@ Used symbolic execution tool KLEE to test non-interference properties.<br>
 		</div>
 		</div>
 		<div class="footer wrapper">
-	<object align="left">Last Updated June 10, 2022</object>
+	<object align="left">Last Updated September 7, 2022</object>
 	<nav class="nav">
 		<div><a href="https://github.com/hadisinaee/avicenna">Avicenna Theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>

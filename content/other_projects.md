@@ -1,12 +1,19 @@
 ---
 title: "Other_projects"
-date: 2021-10-04
+date: 2022-09-07
 draft: false
 ---
 
 ### Other Projects
 
 #### Internships
+
+* __Applied Scientist Internship at Amazon Web Services (Summer 2022).__
+    I worked on a project on incorporating execution semantics during training of large language models for
+    code generation. I explored different models for code generation that
+    also predict traces obtained by running the generated code on various inputs.
+    The trace prediction task is added as an auxiliary objective during training
+    in order to improve semantic understanding of code by the model.
 
 * __Research Internship at Nokia Bell Labs (Summer 2020).__
     I explored applications of deep reinforcement learning and imitation learning in solving
