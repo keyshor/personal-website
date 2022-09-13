@@ -8,7 +8,7 @@ draft: false
 
 #### Internships
 
-* __Applied Scientist Internship at Amazon Web Services (Summer 2022).__
+* __Applied Scientist Internship at Amazon Web Services, AI Labs (Summer 2022).__
     I worked on a project on incorporating execution semantics during training of large language models for
     code generation. I explored different models for code generation that
     also predict traces obtained by running the generated code on various inputs.
@@ -20,9 +20,8 @@ draft: false
     classical regenerative stopping problems and studied the effectiveness of machine learning based
     solutions for logistics optimization.
 
-* __SDE Internship at Amazon Web Services (Summer 2019).__
-    I interned with the [Automated Reasoning Group](https://aws.amazon.com/blogs/security/tag/automated-reasoning/)
-    at AWS. I worked on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
+* __Software Development Engineer Internship at Amazon Web Services, Automated Reasoning Group (Summer 2019).__
+    I worked on automatically discovering sinks of sensitive data in Java code. Functions known as sinks are usually given as inputs to a taint analysis tool to check for
     security vulnerabilities in code. New techniques are needed to find such sinks since manual examination of code is close to impossible in large codebases.  My project was on applying machine learning to identify sinks in
     the codebase of AWS storage services.
 
