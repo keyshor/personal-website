@@ -1,4 +1,4 @@
-baseURL = "https://seas.upenn.edu/~kishor"
+baseURL = "https://keyshor.github.io"
 languageCode = "en-us"
 title = "Kishor Jothimurugan"
 theme = "avicenna"
@@ -15,7 +15,7 @@ timeout = 3000
 
 [[params.affilation]]
   name = "University of Pennsylvania"
-  position = "PhD Student"
+  position = "PhD Candidate"
   contact = "kishor at seas upenn edu"
 
 [[params.social]]

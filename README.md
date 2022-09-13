@@ -1,3 +1,3 @@
 # Website
-* Personal Website hosted at https://www.seas.upenn.edu/~kishor/
+* Personal Website hosted at https://keyshor.github.io/
 * Created using hugo static site generator: https://gohugo.io/

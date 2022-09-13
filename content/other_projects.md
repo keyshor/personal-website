@@ -32,7 +32,6 @@ draft: false
 
 * __Online learning with many experts: Course Project for Computational Learning Theory (CIS 625).__
     Survey of online learning methods for dealing with too many (potentially infinite) experts.  
-    [[report](http://cis.upenn.edu/~castan/doc/2018/No%20Regret%20Learning%20Report.pdf)]
 
 * __Testing non-interference with KLEE: Course Project for Software Analysis and Testing (CIS 700).__
     Used symbolic execution tool KLEE to test non-interference properties.  
