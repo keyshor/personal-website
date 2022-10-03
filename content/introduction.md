@@ -24,7 +24,7 @@ More specifically, my work spans across the following themes.
 
 * __RL from logical specifications__.
 Long-horizon tasks are challenging to express using Markovian rewards.
-This line of work focusses on designing RL algorithms for learning to perform
+This line of work focuses on designing RL algorithms for learning to perform
 tasks expressed in logical specification languages such as Linear Temporal Logic (LTL).
 I have contributed to the theoretical foundations of RL from LTL specifications
 ([Henzinger-60](https://arxiv.org/pdf/2111.00272.pdf)). I have designed a composable
@@ -43,5 +43,5 @@ a wide variety of tasks ([Preprint](papers/rosac.pdf)).
 
 * __Verification of neural network controllers__.
 Verifying safety of neural policies trained using RL is a challenging problem and current techniques
-do not scale well to long horizon. I have developed a compositional verification framework
-that leverages existing techniques and inductive reasoning to scale verification to long (potentially infinite) horizon ([EMSOFT'21](papers/emsoft21.pdf)).
+do not scale well to long horizons. I have developed a compositional verification framework
+that leverages existing techniques and inductive reasoning to scale verification to long (potentially infinite) horizons ([EMSOFT'21](papers/emsoft21.pdf)).
