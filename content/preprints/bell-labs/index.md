@@ -38,7 +38,8 @@ links:
 - name: ArXiv
   url: https://arxiv.org/abs/2105.02318
 ---
-##Abstract
+## Abstract
+
 We study regenerative stopping problems in which the system starts anew whenever the
 controller decides to stop and the long-term average cost is to be minimized. Traditional model-based solutions involve estimating the underlying process from data and computing strategies for
 the estimated model. In this paper, we compare such solutions to deep reinforcement learning
