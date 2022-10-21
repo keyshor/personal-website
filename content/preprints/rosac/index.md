@@ -31,7 +31,7 @@ image:
 projects: []
 publication_types:
 - '1'
-publication: '*Under Review*'
+publication: '*Deep RL Workshop, NeurIPS. Under Review at AISTATS*'
 links:
 - name: PDF
   url: papers/rosac.pdf
