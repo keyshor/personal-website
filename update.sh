@@ -1,3 +1,4 @@
+sudo rm -rf ${TMPDIR}/hugo_cache
 hugo
 
 cd public
