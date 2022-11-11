@@ -1,10 +1,7 @@
 ---
-title: Writing technical content in Markdown
-date: 2019-07-12
+title: Tutorial on Specification-Guided Reinforcement Learning
+date: 2022-11-10
 math: true
-image:
-  placement: 2
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
@@ -326,18 +323,6 @@ renders as
 - [x] Write math example
   - [x] Write diagram example
 - [ ] Do something else
-
-### Tables
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
 
 ### Callouts
 
