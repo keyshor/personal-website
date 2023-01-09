@@ -28,7 +28,7 @@ I have contributed to the theoretical foundations of RL from LTL specifications
 specification language for specifying robotics tasks ([NeurIPS 19](https://arxiv.org/pdf/2008.09293.pdf))
 along with algorithms to train policies to satisfy such specifications
 ([NeurIPS 21](https://arxiv.org/pdf/2106.13906.pdf), [CAV 22](https://arxiv.org/pdf/2206.03348.pdf)).  
-_I am co-presenting a [tutorial](aaai_tutorial) on this topic at AAAI 2023!_
+_I am co-presenting a [tutorial](teaching/aaai_tutorial) on this topic at AAAI 2023!_
 
 __ __
 * __Compositional reinforcement learning__.
