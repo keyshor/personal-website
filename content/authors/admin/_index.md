@@ -73,6 +73,6 @@ highlight_name: true
 
 Hi! I am a final-year PhD student in Computer and Information Science being advised by Prof. [Rajeev Alur](https://www.cis.upenn.edu/~alur). My research interests lie at the intersection of Formal Methods and Machine Learning. In particular, I am interested in applying formal methods to improve applicability and reliability of reinforcement learning, verifying systems with neural network components and using neurosymbolic approaches to improve program synthesis and analysis.
 
-__I am on the (academic and industry) job market this year! Please reach out if you are hiring!__  
+__I am on the (academic and industry) job market this year!__
 Application material: ([Research Statement](uploads/research_statement.pdf)) ([Teaching Statement](uploads/teaching_statement.pdf))
 ([Diversity Statement](uploads/dei_statement.pdf)) ([CV](uploads/cv.pdf))
