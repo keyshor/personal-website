@@ -1,6 +1,6 @@
 ---
 title: AAAI Tutorial on Specification-Guided Reinforcement Learning
-date: 2023-01-08
+date: 2023-02-07
 ---
 
 The unprecedented proliferation of data-driven approaches, especially machine learning, has put the spotlight on building trustworthy AI through the combination of logical reasoning and machine learning. _Reinforcement Learning from Logical Specifications_ is one such topic where formal logical constructs are utilized to overcome challenges faced by modern RL algorithms. Research on this topic is scattered across venues targeting subareas of AI. Foundational work has appeared at formal methods and AI venues. Algorithmic development and applications have appeared at machine learning, robotics, and cyber-physical systems venues. This tutorial consolidates recent progress in one capsule for a typical AI researcher. The tutorial is designed to explain the importance of using formal specifications in RL and encourage researchers to apply existing techniques for RL from logical specifications as well as contribute to the growing body of work on this topic.
