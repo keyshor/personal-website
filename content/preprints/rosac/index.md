@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Robust Option Learning for Compositional Generalization
+title: Robust Subtask Learning for Compositional Generalization
 subtitle: ''
 summary: ''
 authors:
@@ -31,10 +31,12 @@ image:
 projects: []
 publication_types:
 - '1'
-publication: '*Deep RL Workshop, NeurIPS. Under Review at AISTATS*'
+publication: '*Presented at Deep RL Workshop, NeurIPS. Under Review at ICML*'
 links:
 - name: PDF
-  url: papers/rosac.pdf
+  url: https://arxiv.org/pdf/2302.02984.pdf
+- name: ArXiv
+  url: https://arxiv.org/abs/2302.02984
 ---
 ## Abstract
 
