@@ -75,4 +75,4 @@ Hi! I am a final-year PhD student in Computer and Information Science being advi
 
 __I am on the job market this year!__  
 Application material: [[Research Statement](uploads/research_statement.pdf)] [[Teaching Statement](uploads/teaching_statement.pdf)]
-[[Diversity Statement](uploads/dei_statement.pdf)] [[CV](uploads/cv.pdf)]
+[[Diversity Statement](uploads/dei_statement.pdf)] [[Slides](https://docs.google.com/presentation/d/1153B7Yu29rC6k5ozCAGLHCdnqUUfORFq/edit?usp=share_link&ouid=102023514678676389711&rtpof=true&sd=true)] [[CV](uploads/cv.pdf)]
