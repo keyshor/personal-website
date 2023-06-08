@@ -71,8 +71,4 @@ email: ''
 highlight_name: true
 ---
 
-Hi! I am a final-year PhD student in Computer and Information Science being advised by Prof. [Rajeev Alur](https://www.cis.upenn.edu/~alur). My research interests lie at the intersection of Formal Methods and Machine Learning. In particular, I am interested in applying formal methods to improve applicability and reliability of reinforcement learning, verifying systems with neural network components and using neurosymbolic approaches to improve program synthesis and analysis.
-
-__I am on the job market this year!__  
-Application material: [[Research Statement](uploads/research_statement.pdf)] [[Teaching Statement](uploads/teaching_statement.pdf)]
-[[Diversity Statement](uploads/dei_statement.pdf)] [[Slides](https://docs.google.com/presentation/d/1153B7Yu29rC6k5ozCAGLHCdnqUUfORFq/edit?usp=share_link&ouid=102023514678676389711&rtpof=true&sd=true)] [[CV](uploads/cv.pdf)]
+Hi! I am an incoming Quantitative Researcher at Two Sigma. I earned my PhD in Computer and Information Science from the University of Pennsylvania. I was advised by Prof. [Rajeev Alur](https://www.cis.upenn.edu/~alur). My research interests lie at the intersection of Formal Methods and Machine Learning. In particular, I am interested in applying formal methods to improve applicability and reliability of reinforcement learning, verifying systems with neural network components and using neurosymbolic approaches to improve program synthesis and analysis.

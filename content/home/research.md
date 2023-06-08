@@ -10,7 +10,7 @@ headless: true
 weight: 30
 
 # Section title
-title: Current Research
+title: PhD Research
 ---
 
 Reinforcement Learning (RL) has been shown to be successful in many applications including robotics and game playing.
