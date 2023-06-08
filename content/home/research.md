@@ -38,7 +38,7 @@ For example, such decompositions can be obtained using user provided state abstr
 ([AISTATS 21](https://arxiv.org/pdf/2010.15638.pdf)) or from the structure in a given
 logical specification ([NeurIPS 21](https://arxiv.org/pdf/2106.13906.pdf)).
 Compositional RL algorithms also enable us to train policies that generalize to
-a wide variety of tasks ([DeepRL 22](papers/rosac.pdf)).  
+a wide variety of tasks ([ICML 23](https://arxiv.org/pdf/2302.02984.pdf)).  
 
 __ __
 * __Verification of neural network controllers__.

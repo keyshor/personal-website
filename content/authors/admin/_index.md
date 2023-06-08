@@ -10,11 +10,11 @@ last_name: Jothimurugan
 superuser: true
 
 # Role/position/tagline
-role: Doctoral Candidate
+role: Quantitative Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Pennsylvania
+  - name: Two Sigma
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
