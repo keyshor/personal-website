@@ -16,14 +16,7 @@ content:
   autolink: true
 
   # Contact details (edit or remove options as required)
-  email: kishor@seas.upenn.edu
-  address:
-    street: 3330 Walnut Street, Room 513
-    city: Philadelphia
-    region: PA
-    postcode: '19104'
-    country: United States
-    country_code: US
+  email: kishor1996 at gmail dot com
   contact_links:
     - icon: twitter
       icon_pack: fab
