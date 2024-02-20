@@ -49,7 +49,7 @@ social:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=ZFL3XX0AAAAJ
+    link: https://scholar.google.com/citations?user=S3FcLGcAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/keyshor
@@ -71,4 +71,5 @@ email: ''
 highlight_name: true
 ---
 
-Hi! I am an incoming Quantitative Researcher at Two Sigma. I earned my PhD in Computer and Information Science from the University of Pennsylvania. I was advised by Prof. [Rajeev Alur](https://www.cis.upenn.edu/~alur). My research interests lie at the intersection of Formal Methods and Machine Learning. In particular, I am interested in applying formal methods to improve applicability and reliability of reinforcement learning, verifying systems with neural network components and using neurosymbolic approaches to improve program synthesis and analysis.
+Hi! I am a Quantitative Researcher at Two Sigma. I earned my PhD in Computer and Information Science from the University of Pennsylvania. I was advised by Prof. [Rajeev Alur](https://www.cis.upenn.edu/~alur). My research interests lie at the intersection of Formal Methods and Machine Learning. In particular, I am interested in
+Neurosymbolic Programming, Reinforcement Learning and Interpretable Machine Learning.
