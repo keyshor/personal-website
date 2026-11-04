@@ -44,7 +44,7 @@ image:
 projects: []
 publishDate: '2022-10-06T00:58:44.360313Z'
 publication_types:
-- '1'
+- '2'
 abstract: Recent advances in deep learning have enabled data-driven controller design
   for autonomous systems. However, verifying safety of such controllers, which are
   often hard-to-analyze neural networks, remains a challenge. Inspired by compositional
@@ -66,7 +66,7 @@ abstract: Recent advances in deep learning have enabled data-driven controller d
   safety for complex track geometries. We leverage our framework to learn and verify
   a controller that safely completes any track consisting of an arbitrary sequence
   of five kinds of track segments.
-publication: '*International Conference on Embedded Software (EMSOFT)*'
+publication: '*ACM Transactions on Embedded Computing Systems*'
 links:
 - name: PDF
   url: papers/emsoft21.pdf

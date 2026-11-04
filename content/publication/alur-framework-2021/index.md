@@ -57,7 +57,7 @@ abstract: Reactive synthesis algorithms allow automatic construction of policies
   that certain kinds of reductions from LTL specifications to reward-based ones do
   not exist, and prove the non-existence of RL algorithms with PAC-MDP guarantees
   for safety specifications.
-publication: '*Springer Festschrift in honor of Prof. Tom Henzinger*'
+publication: '*Principles of Systems Design: Essays Dedicated to Thomas A. Henzinger on the Occasion of His 60th Birthday*'
 links:
 - name: PDF
   url: https://arxiv.org/pdf/2111.00272.pdf
